@@ -65,7 +65,7 @@ See `example.html` in example folder.
 NOTES: This plugin requires jQuery.
 
 
-There are 1 functions and 2 attributes in this plugin:
+There are 1 function and 2 attributes in this plugin:
 
 	function: .equalHeight();	
 
