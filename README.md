@@ -4,7 +4,7 @@ Version 0.1.2
 
 ## Summary
 
-This is a simple jQuery Plugin that can easily allow user to equalize height the elements.
+This is a simple jQuery Plugin that can easily allow user to equalize the height(s) of the elements.
 
 ## Author
 
