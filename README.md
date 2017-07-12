@@ -26,9 +26,6 @@ Alternatively, install with [bower](https://github.com/bower/bower):
 
 ## Requirements/Browsers
 
-THIS PLUGIN REQUIRES AJAX, CHROME WOULD NOT GIVE YOU ANY PREVIEWS. 
-YOU NEED TO UPLOAD IT TO THE SERVER SO THAT IT RUNS PERFECTLY.
-
 Works in IE9+, Chrome 14+, Safari 4+, Firefox 3.0+, Opera 10+.
 
 Tested with jQuery 1.12.x.
