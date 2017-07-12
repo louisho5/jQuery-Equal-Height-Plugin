@@ -50,8 +50,16 @@ Tested with jQuery 1.12.x.
 		</head>
 		<body>
 			<div id="container">
-				<div data-setHeight="true"><div data-getHeight="true">This sentence will be equalized. This sentence will be equalized.</div></div>
-				<div data-setHeight="true"><div data-getHeight="true">This sentence will be equalized.</div></div>
+				<div data-setHeight="true">
+					<div data-getHeight="true">
+						This sentence will be equalized. This sentence will be equalized.
+					</div>
+				</div>
+				<div data-setHeight="true">
+					<div data-getHeight="true">
+						This sentence will be equalized.
+					</div>
+				</div>
 			</div>
 		</body>
 	</html>
@@ -78,8 +86,6 @@ is used to put into the element(s) you want to determine the highest height.
 	
 is used to put into the element(s) you want to apply the highest height.
 
-
-All functions do not require parameter in the bracket.
 
 ## License
 
