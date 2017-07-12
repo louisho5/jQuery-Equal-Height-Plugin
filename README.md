@@ -47,11 +47,11 @@ Tested with jQuery 1.12.x.
 		</head>
 		<body>
 			<div id="container">
-				<div data-setHeight="true">
+				<div>
 					<div data-getHeight="true">This sentence will be equalized. This sentence will be equalized.</div>
 				</div>
 				<div data-setHeight="true">
-					<div data-getHeight="true">This sentence will be equalized.</div>
+					<div>This sentence will be equalized.</div>
 				</div>
 			</div>
 		</body>
