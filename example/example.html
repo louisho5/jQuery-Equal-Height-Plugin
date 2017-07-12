@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.1.12.4.min.js"></script>
+<script src="../jquery.equalHeight.min.js"></script>
+<script>
+	setInterval(function() {
+		$("#container").equalHeight();	//Apply the equalization to your selector elements
+	}, 10);
+</script>
+<style>
+#container > div {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	border: 1px solid red;
+}
+</style>
+</head>
+<body>
+
+<div id="container">
+	<div><div getHeight="true">This sentence will NOT be equalized.</div></div>
+	<div setHeight="true"><div getHeight="true">This sentence will be equalized. This sentence will be equalized.</div></div>
+	<div setHeight="true"><div getHeight="true">This sentence will be equalized. This sentence will be equalized. This sentence will be equalized. This sentence will be equalized.</div></div>
+	<div setHeight="true"><div getHeight="true">This sentence will be equalized.</div></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "jquery.equalHeight",
+  "version": "0.1.2",
+  "dependencies": {
+  	"jquery": ">=1.12.4"
+  },
+  "main": [
+    "jquery.equalHeight.js"
+  ]
+}

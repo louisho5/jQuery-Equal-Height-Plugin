@@ -1,0 +1,7 @@
+{
+  "name": "jquery.equalHeight",
+  "version": "0.1.2",
+  "main": "jquery.equalHeight.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
