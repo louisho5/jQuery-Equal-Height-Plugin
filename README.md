@@ -51,14 +51,10 @@ Tested with jQuery 1.12.x.
 		<body>
 			<div id="container">
 				<div data-setHeight="true">
-					<div data-getHeight="true">
-						This sentence will be equalized. This sentence will be equalized.
-					</div>
+					<div data-getHeight="true">This sentence will be equalized. This sentence will be equalized.</div>
 				</div>
 				<div data-setHeight="true">
-					<div data-getHeight="true">
-						This sentence will be equalized.
-					</div>
+					<div data-getHeight="true">This sentence will be equalized.</div>
 				</div>
 			</div>
 		</body>
@@ -82,7 +78,7 @@ is used to apply the equalization to your elements inside the container.
 
 is used to put into the element(s) you want to determine the highest height.
 
-	attribute: getHeight="true"		
+	attribute: setHeight="true"		
 	
 is used to put into the element(s) you want to apply the highest height.
 
